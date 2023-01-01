@@ -1,6 +1,9 @@
 # listview_cubit_hooks
 
-A new Flutter project that demonstrates the usage of ListView with cubits and hooks.
+A Flutter project that demonstrates the usage of ListView with cubits and hooks.
+Also with local database storage using Hive.
+
+Check out Medium tutorial for screenshots and explanations - 
 
 ## Getting Started
 
