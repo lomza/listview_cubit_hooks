@@ -5,15 +5,14 @@ Also with local database storage using Hive.
 
 Check out Medium tutorial for screenshots and explanations - 
 
+<img width="880" alt="flutter_tutorial_app_cubit_hooks_hive" src="https://user-images.githubusercontent.com/954738/210174999-afbcd5cd-9c9b-47ee-89ec-ab8cb3a72f13.png">
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+For generating injectables & freezed files:
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub run build_runner build --delete-conflicting-outputs
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+For generating local keys for Easy Localization:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub run easy_localization:generate --source-dir ./assets/translations -f keys -o local_keys.g.dart
