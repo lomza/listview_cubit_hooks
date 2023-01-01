@@ -11,8 +11,8 @@ Check out Medium tutorial for screenshots and explanations -
 
 For generating injectables & freezed files:
 
-flutter pub run build_runner build --delete-conflicting-outputs
+`flutter pub run build_runner build --delete-conflicting-outputs`
 
 For generating local keys for Easy Localization:
 
-flutter pub run easy_localization:generate --source-dir ./assets/translations -f keys -o local_keys.g.dart
+`flutter pub run easy_localization:generate --source-dir ./assets/translations -f keys -o local_keys.g.dart`
