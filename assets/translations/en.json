@@ -1,0 +1,25 @@
+{
+    "app_title": "Library App",
+    "books": {
+        "list": {
+            "title": "Library",
+            "add": "Add a book",
+            "empty": "No books in your library.\nAdd one with a button below.",
+            "delete_all": "Delete all",
+            "delete_all_dialog_message": "Are you sure you want to delete all books?",
+            "delete_all_dialog_yes": "Yes",
+            "delete_all_dialog_no": "No"
+        },
+        "details": {
+            "title_edit": "Book Details",
+            "title_add": "Add new Book",
+            "book_title": "Title",
+            "author": "Author",
+            "about": "About",
+            "publish_date": "Published (year)",
+            "save": "Save",
+            "delete": "Delete",
+            "mark_as_read": "Read already?"
+        }
+    }
+}
